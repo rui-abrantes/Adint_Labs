@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h3> List of Files</h3>
+
+{% for file in message %}
+<li>{{file}}</li>
+{% endfor %}
+        
+{% endblock %}
